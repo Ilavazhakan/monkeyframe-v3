@@ -1,0 +1,50 @@
+Arguments: 
+  /Users/ilavazhakan/.nvm/versions/node/v16.16.0/bin/node /usr/local/bin/yarn add bootstrap
+
+PATH: 
+  /Users/ilavazhakan/.nvm/versions/node/v16.16.0/bin:/opt/homebrew/opt/php@8.0/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/homebrew/opt/php@8.0/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin==
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: 140704392988224:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:../deps/openssl/openssl/ssl/record/ssl3_record.c:677:
+
+npm manifest: 
+  {
+    "name": "monkeyframe-v3",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@types/node": "20.4.1",
+      "@types/react": "18.2.14",
+      "@types/react-dom": "18.2.6",
+      "next": "13.4.9",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-redux": "^8.1.1",
+      "redux": "^4.2.1",
+      "redux-persist": "^6.0.0",
+      "redux-thunk": "^2.4.2",
+      "sass": "^1.63.6",
+      "typescript": "5.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
